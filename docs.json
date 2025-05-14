@@ -4,43 +4,62 @@
   "name": "ChromaHK Support Docs",
   "colors": {
     "primary": "#16A34A",
-    "light": "#07C983",
+    "light": "#22aec9",
     "dark": "#15803D"
   },
   "favicon": "/images/3200.png",
   "navigation": {
+    "versions": [
+        {
+          "version": "0.1.0",
 
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+          "dropdowns": [
+            {
+
+              "dropdown": "Home",
+              "icon": "stars",
+              "groups": [
+                {
+                  "group": "Welcome",
+                  "pages": [
+                    "index"
+                  ]
+                },
+                {
+                  "group": "Cobra",
+                  "pages": [
+                    "cobra/introduction",
+                    "cobra/web",
+                    "cobra/gui",
+                    "cobra/evaporator",
+                    "cobra/troubleshooting"
+                  ]
+                }
+
+
+              ]
+            },
+              {
+              "dropdown": "Changelog",
+              "description": "Updates and changes ",
+              "icon": "clock",
+              "pages": [
+                "updates"
+              ]
+            }
+          ]
+          ,
+          "global": {
+            "anchors": [
+              {
+                "anchor": "Created on May 14, 2025",
+                "href": "https://docs.chromahk.com",
+                "icon": "calendar-days"
+              }
             ]
           }
-        ]
-     ,
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Created on May 14, 2025",
-          "href": "https://docs.chromahk.com",
-          "icon": "calendar-days"
         }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/chroma.svg",
@@ -64,6 +83,12 @@
 
       "github": "https://github.com/stop1204/docs",
       "linkedin": "https://www.linkedin.com/in/terry-h-b20660128"
+    }
+  }
+,
+  "seo": {
+    "metatags": {
+      "og:image": "/images/chroma.png"
     }
   }
 }

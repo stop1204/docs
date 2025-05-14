@@ -39,3 +39,6 @@ If you want to contribute to this repository, follow these steps:
 6. Open a pull request to the `main` branch of this repository.
 
 We will review your changes and merge them if they meet the contribution guidelines.
+
+### Reference
+- [Icons](https://fontawesome.com/icons)
