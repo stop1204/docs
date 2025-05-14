@@ -3,9 +3,9 @@
   "theme": "maple",
   "name": "ChromaHK Support Docs",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#ff236f",
     "light": "#22aec9",
-    "dark": "#15803D"
+    "dark": "#16A34A"
   },
   "favicon": "/images/3200.png",
   "navigation": {
