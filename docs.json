@@ -88,7 +88,22 @@
 ,
   "seo": {
     "metatags": {
-      "og:image": "/images/chroma.png"
+      "og:title": "ChromaHK Docs",
+      "og:image": "/images/chroma.png",
+      "og:type": "website",
+      "og:url": "https://docs.chromahk.com",
+
+      "robots": "noindex, nofollow",
+      "googlebot": "index, follow",
+      "description": "A maintenance documentation for Chroma products in HongKong",
+      "keywords": "3200, 3200D, Cobra, Handler, Chroma, ChromaHK",
+      "author": "Terry.He",
+      "og:description": "A maintenance documentation",
+      "twitter:card": "summary",
+      "twitter:title": "ChromaHK Docs",
+      "twitter:description": "A maintenance documentation",
+      "twitter:image": "/images/chroma.png",
+      "msapplication-TileImage": "/images/chroma.png"
     }
   }
 }
