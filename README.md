@@ -1,12 +1,4 @@
-# Mintlify Starter Kit
-
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
-
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+# ChromaHK Support Docs
 
 ### Development
 
@@ -22,11 +14,28 @@ Run the following command at the root of your documentation (where docs.json is)
 mintlify dev
 ```
 
-### Publishing Changes
+### Contributing
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+If you want to contribute to this repository, follow these steps:
 
-#### Troubleshooting
+1. Fork the repository to your own GitHub account.
+2. Clone the forked repository to your local machine:
+   ```
+   git clone https://github.com/stop1204/docs.git
+   ```
+3. Create a new branch for your changes:
+   ```
+   git checkout -b your-branch-name
+   ```
+4. Make your changes and commit them:
+   ```
+   git add .
+   git commit -m "Description of your changes"
+   ```
+5. Push your changes to your forked repository:
+   ```
+   git push origin your-branch-name
+   ```
+6. Open a pull request to the `main` branch of this repository.
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+We will review your changes and merge them if they meet the contribution guidelines.
